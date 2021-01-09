@@ -1,0 +1,68 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="top">
+                <a href="" class="brand">Theory</a>
+                <nav class="menu">
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                    <a href="">Home</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="col1">
+                <article class="col1-1">
+                    <h3>Introductory</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum suscipit facilis voluptate eum beatae, iste vitae consequuntur tempora dolor eaque nemo! Fuga tenetur ducimus facere iste sit perferendis obcaecati iusto.</p>
+                </article>
+                <article class="col1-1">
+                    <img src="assets/media/dog1.jpeg" alt="">
+                </article>    
+            </div>
+        </section>
+        <section class="container">
+            <div class="col2">
+                <article class="col2-1">
+                    <img src="assets/media/a.jpeg" alt="">
+                    <img src="assets/media/b.jpeg" alt="">
+                    <img src="assets/media/d.png" alt="">
+                </article>
+                <article class="col2-2">
+                    <img src="assets/media/dog1.jpeg" alt="">
+                    <img src="assets/media/dog2.jpeg" alt="">
+                    <img src="assets/media/e.jpeg" alt="">
+
+                </article>
+            </div>
+
+        </section>
+        <footer class="container">
+            <small>&copy;Petit</small>
+        </footer>
+    </main>
+</body>
+</html>
