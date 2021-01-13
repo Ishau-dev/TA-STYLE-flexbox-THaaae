@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+
+a{
+    text-decoration: none;   
+}
+
+
+.container{
+    padding: 10px 40px;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #222946;
+    margin-bottom: 30px;
+}
+
+.navbar a span{
+    vertical-align: middle;
+    text-decoration: none;   
+    margin-left: 10px;
+    color: white;
+}
+
+
+.navbar a img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.sidebar{
+    background-color: #A3CAEA;
+    flex: 0 1 30%;
+    padding: 16px;
+    display: flex;
+    align-self: stretch;  
+    flex-direction: column;
+    justify-content: space-between;  
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-nav{
+    display: flex;
+    flex-direction: column;
+      
+}
+
+.sidebar-nav a{
+    color: #222946; 
+    font-weight: 700;
+}
+.sidebar-nav a img{
+    vertical-align: middle;
+    padding: 16px;
+}
+.sidebar-nav span{
+    margin-left: 5px;
+}
+
+.active{
+    color: coral;
+    border: 2px solid coral;
+    border-radius: 5px;
+}
+
+.btn{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.btn img{
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.article-sect{
+    background-color: #F2F8FD;
+    flex: 0 1 60%;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.article-content h1{
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.article-content p{
+    padding-bottom: 20px;
+}
+
+.click{
+    border-radius: 5px;
+    border: 0;
+    background-color: #37B667;
+    color: white;
+    box-shadow: 0 2px 6px 1px rgb(204, 204, 204);
+}
+
+footer{
+    background-color: #222946;
+    padding: 20px 0;
+    color: white;
+    margin-top: 30px;
+}
