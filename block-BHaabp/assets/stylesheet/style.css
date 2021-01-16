@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header{
+    background: rgb(81,77,119);
+background: linear-gradient(90deg, rgba(81,77,119,1) 0%, rgba(115,64,120,1) 100%, rgba(111,64,120,1) 100%);
+}
+
+.container{
+    padding: 16px 32px;
+    margin: 0 auto;
+    max-width: 1330px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 32px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.nav-bar{
+    text-transform: uppercase;
+    
+}
+
+.nav-bar a{
+    color: #5CA587;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero */
+
+.hero{
+    background: rgb(81,77,119);
+background: linear-gradient(90deg, rgba(81,77,119,1) 0%, rgba(115,64,120,1) 100%, rgba(111,64,120,1) 100%);
+    padding: 60px 0;
+    }
+
+.col-1{
+    color: white;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.col1-1{
+    flex: 0 1 50%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.col1-2{
+    flex: 1 1 30%;
+    padding-left: 30px;
+}
+
+.thin_border{
+    border-left: 1px solid rgba(212, 208, 208, 0.3);
+}
+
+.col1-2 p{
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-size: 18px;
+    opacity: 0.4;
+
+}
+
+.btn{
+    border: 0;
+    border-radius: 25px;
+    background-color: #5DBD8B;
+    color: white;
+    opacity: 1;
+    padding: 16px;
+}
+
+.col-2{
+    display: flex;
+    
+}
+
+.first{
+    margin-top: 40px;
+}
+.col2-1{
+    flex: 0 1 50%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    font-size: 18px;  
+    color: #666666
+    
+}
+
+.col2-1 .btn{
+    background-color: white;
+    color: #666666;
+    border: 1px solid #666666;
+    margin-top: 30px;
+    padding: 16px;
+}
+
+.col2-1 h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.col2-2{
+    flex: 0 1 30%;
+    padding-left: 30px;
+    
+}
+
+.col2-2 p{
+    font-weight: bold;
+    padding: 10px 0;
+    line-height: 1.7;
+    font-size: 18px;
+    color:  #666666;
+}
+
+.show{
+    background-color: #f5f1f1;
+       
+}
+
+.show .col-3{
+    background-color: white;
+    display: flex;  
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.col3-1{
+    flex: 0 1 20%;
+    align-self: stretch;
+    display: flex;
+}
+
+
+.col3-2{
+    flex: 0 1 60%;
+    align-self: center;
+    padding-left: 40px;  
+    color:  #666666;
+}
+
+.col3-2 h3{
+    font-weight: bolder;
+    color:  #666666;
+    font-size: 16px;
+}
+
+.col3-2 .btn{
+    background-color: #FAFAFA;
+    color: #666666;
+    border: 1px solid #666666;
+    margin-top: 30px;
+    padding: 16px;
+}
+
+.show .box{
+    text-align: center;    
+    
+}
+
+.box .btn{
+    background-color: #FAFAFA;
+    color: #666666;
+    border: 1px solid #666666;
+    margin-bottom: 40px; 
+}
+
+.col-4{
+    display: flex;
+    padding-top: 40px;
+    color: #666666;
+    
+}
+
+.col4-1{
+    flex: 0 1 55%;
+    
+}
+
+.col4-1 h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.col4-1 p{
+    padding-bottom: 20px;
+}
+.col4-2{
+    flex: 0 1 30%;
+    padding-left: 30px;
+}
+
+.box{
+    text-align: center;
+}
